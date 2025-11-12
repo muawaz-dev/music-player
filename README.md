@@ -10,6 +10,15 @@ console.log("Wrote each and every line myself(no-AI)! hehe")
 - Stylish design
 - Black themed
 
+## Screenshots
+### Mobile Layout
+![Mobile Layout](assets/Screenshot-mobile.png)
+
+### Desktop Layout
+![Desktop Layout](assets/Screenshot-desktop.png)
+
+
+
 ## How to Use
 - Download or clone the repo.
 - Add mp3 files to music-player/songs/
