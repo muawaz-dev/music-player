@@ -1,0 +1,16 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Node modules (if you add JS later)
+node_modules/
+
+# Build output (if you add a bundler later)
+dist/
