@@ -1,0 +1,28 @@
+/*Nav responsiveness*/
+
+/* body .nav .right .lefthalf{
+    display: none;
+}
+
+body .nav .left li:nth-child(3){
+    display: none;
+}
+body .nav .left{
+    flex-grow: 0px;
+}
+
+body .nav .right > li:nth-child(2){
+    display: none;
+} */
+
+.grow-none{
+    flex-grow: 0 !important;
+}
+
+.display-none{
+    display: none !important;
+}
+
+.cardPlay{
+    filter: invert(1);
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Web-Player</title>
+    <link rel="stylesheet" href="utlity.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav">
+        <ul class="left">
+            <li><img src="assets/home.svg" alt="home"></li>
+            <li class="input"><input type="text" placeholder="What do you want to play?"></li>
+        </ul>
+
+        <ul class="right">
+            <ul class="lefthalf">
+                <li>Premium</li>
+                <li>Support</li>
+                <li>Download</li>
+            </ul>
+            <li>|</li>
+            <ul class="righthalf">
+                <li>Install App</li>
+                <li>Sign up</li>
+                <li><button>Login</button></li>
+            </ul>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="side">
+            <h2>Your Library</h2>
+            <div class="libraryBox">
+                <div class="sideBox1">
+                    <h3>Create your first playlist</h3>
+                    <p class=".raleway-font">Its easy we will help you</p>
+                    <button>Create Playlist</button>
+                </div>
+                <div class="sideBox2">
+                    <h3>Lets find some podcasts to follow</h3>
+                    <p class=".raleway-font">We will keep you updated on new episodes</p>
+                    <button>Browse podcasts</button>
+                </div>
+            </div>
+            <div class="footer">
+                <p>Legal</p>
+                <p>Safety&PrivacyCenter</p>
+                <p>Privacy Policy</p>
+                <p>Cookies</p>
+                <p>About Ads</p>
+                <p>Accessibility</p>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <input class="seekBar" type="range" min="0" value="0" step="0.01">
+            <div class="playButtons">
+                <button class="btnPrev"><img src="assets/previous-Stroke-Rounded.png" alt=""></button>
+                <button class="btnPlay"><img src="assets/play-Stroke-Rounded.png" alt=""></button>
+                <button class="btnPause display-none"><img src="assets/pause-Stroke-Rounded.png" alt=""></button>
+                <button class="btnNext"><img src="assets/next-Stroke-Rounded.png" alt=""></button>
+            </div>
+        </div>
+   
+        <div class="main">
+            <p>Songs</p>
+            <div class="cardContainer">
+                <!-- <div class="cards">
+                    <img src="CardImage.png" alt="">
+                    <button><h4>Chalo Door</h4></button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script src="nav.js"></script>
+    <script src="audio.js"></script>
+</body>
+
+</html>
