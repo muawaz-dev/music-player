@@ -122,6 +122,7 @@ body::-webkit-scrollbar-thumb {
 /*Side Section*/
 .container {
     background-color: #000000;
+    margin-bottom: 45px;
 }
 
 .container .side {

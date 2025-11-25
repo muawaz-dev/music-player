@@ -41,7 +41,7 @@ function playSong(i) {
 let song = new Audio();
 
 /*
-The function below are for syncing the playbar to the song state
+The function below are for syncing the play-bar to the song state
 */
 let seekBar = document.querySelector(".seekBar")
 
